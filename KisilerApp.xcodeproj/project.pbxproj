@@ -9,21 +9,57 @@
 /* Begin PBXBuildFile section */
 		1772B97A2BE7E74800B21C37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772B9792BE7E74800B21C37 /* AppDelegate.swift */; };
 		1772B97C2BE7E74800B21C37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772B97B2BE7E74800B21C37 /* SceneDelegate.swift */; };
-		1772B97E2BE7E74800B21C37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772B97D2BE7E74800B21C37 /* ViewController.swift */; };
+		1772B97E2BE7E74800B21C37 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772B97D2BE7E74800B21C37 /* Anasayfa.swift */; };
 		1772B9812BE7E74800B21C37 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1772B9802BE7E74800B21C37 /* Base */; };
 		1772B9832BE7E74900B21C37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1772B9822BE7E74900B21C37 /* Assets.xcassets */; };
 		1772B9862BE7E74900B21C37 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1772B9852BE7E74900B21C37 /* Base */; };
+		1772B9912BE7E93400B21C37 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772B9902BE7E93400B21C37 /* Kisiler.swift */; };
+		1772B9942BE7EAE900B21C37 /* KisiKayit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772B9932BE7EAE900B21C37 /* KisiKayit.swift */; };
+		1772B9962BE7EAFB00B21C37 /* KisiDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772B9952BE7EAFB00B21C37 /* KisiDetay.swift */; };
+		1772B9BD2BEA8CD700B21C37 /* KisilerHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772B9BC2BEA8CD700B21C37 /* KisilerHucreTableViewCell.swift */; };
+		17B30D872BF3C51C0068B0A1 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 17B30D862BF3C51C0068B0A1 /* RxSwift */; };
+		17B30D8A2BF3C6810068B0A1 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B30D892BF3C6810068B0A1 /* Repository.swift */; };
+		17B30D8D2BF3C6D00068B0A1 /* AnasayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B30D8C2BF3C6D00068B0A1 /* AnasayfaViewModel.swift */; };
+		17B30D8F2BF3C6DD0068B0A1 /* KisiKayıtViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B30D8E2BF3C6DD0068B0A1 /* KisiKayıtViewModel.swift */; };
+		17B30D912BF3C6E80068B0A1 /* KisiDetayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B30D902BF3C6E80068B0A1 /* KisiDetayViewModel.swift */; };
+		17B30DB32BF3E1AB0068B0A1 /* rehber.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 17B30DB22BF3E1AB0068B0A1 /* rehber.sqlite */; };
+		17B30DC02BF3E2B70068B0A1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B30DB62BF3E2B60068B0A1 /* FMResultSet.m */; };
+		17B30DC12BF3E2B70068B0A1 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B30DB82BF3E2B70068B0A1 /* FMDatabasePool.m */; };
+		17B30DC22BF3E2B70068B0A1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B30DB92BF3E2B70068B0A1 /* FMDatabaseAdditions.m */; };
+		17B30DC32BF3E2B70068B0A1 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B30DBA2BF3E2B70068B0A1 /* FMDatabaseQueue.m */; };
+		17B30DC42BF3E2B70068B0A1 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B30DBC2BF3E2B70068B0A1 /* FMDatabase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1772B9762BE7E74800B21C37 /* KisilerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisilerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1772B9792BE7E74800B21C37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1772B97B2BE7E74800B21C37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1772B97D2BE7E74800B21C37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1772B97D2BE7E74800B21C37 /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
 		1772B9802BE7E74800B21C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1772B9822BE7E74900B21C37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1772B9852BE7E74900B21C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1772B9872BE7E74900B21C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1772B9902BE7E93400B21C37 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		1772B9932BE7EAE900B21C37 /* KisiKayit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayit.swift; sourceTree = "<group>"; };
+		1772B9952BE7EAFB00B21C37 /* KisiDetay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetay.swift; sourceTree = "<group>"; };
+		1772B9BC2BEA8CD700B21C37 /* KisilerHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerHucreTableViewCell.swift; sourceTree = "<group>"; };
+		17B30D892BF3C6810068B0A1 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		17B30D8C2BF3C6D00068B0A1 /* AnasayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewModel.swift; sourceTree = "<group>"; };
+		17B30D8E2BF3C6DD0068B0A1 /* KisiKayıtViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KisiKayıtViewModel.swift"; sourceTree = "<group>"; };
+		17B30D902BF3C6E80068B0A1 /* KisiDetayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayViewModel.swift; sourceTree = "<group>"; };
+		17B30DB22BF3E1AB0068B0A1 /* rehber.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = rehber.sqlite; sourceTree = "<group>"; };
+		17B30DB42BF3E2B60068B0A1 /* KisilerApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KisilerApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		17B30DB52BF3E2B60068B0A1 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		17B30DB62BF3E2B60068B0A1 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		17B30DB72BF3E2B70068B0A1 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		17B30DB82BF3E2B70068B0A1 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		17B30DB92BF3E2B70068B0A1 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		17B30DBA2BF3E2B70068B0A1 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		17B30DBB2BF3E2B70068B0A1 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		17B30DBC2BF3E2B70068B0A1 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		17B30DBD2BF3E2B70068B0A1 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		17B30DBE2BF3E2B70068B0A1 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		17B30DBF2BF3E2B70068B0A1 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B30D872BF3C51C0068B0A1 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +95,90 @@
 			children = (
 				1772B9792BE7E74800B21C37 /* AppDelegate.swift */,
 				1772B97B2BE7E74800B21C37 /* SceneDelegate.swift */,
-				1772B97D2BE7E74800B21C37 /* ViewController.swift */,
+				1772B98E2BE7E8A300B21C37 /* Data */,
+				1772B98D2BE7E89900B21C37 /* Interface */,
 				1772B97F2BE7E74800B21C37 /* Main.storyboard */,
 				1772B9822BE7E74900B21C37 /* Assets.xcassets */,
 				1772B9842BE7E74900B21C37 /* LaunchScreen.storyboard */,
 				1772B9872BE7E74900B21C37 /* Info.plist */,
+				17B30DB52BF3E2B60068B0A1 /* FMDatabase.h */,
+				17B30DBC2BF3E2B70068B0A1 /* FMDatabase.m */,
+				17B30DBB2BF3E2B70068B0A1 /* FMDatabaseAdditions.h */,
+				17B30DB92BF3E2B70068B0A1 /* FMDatabaseAdditions.m */,
+				17B30DB72BF3E2B70068B0A1 /* FMDatabasePool.h */,
+				17B30DB82BF3E2B70068B0A1 /* FMDatabasePool.m */,
+				17B30DBE2BF3E2B70068B0A1 /* FMDatabaseQueue.h */,
+				17B30DBA2BF3E2B70068B0A1 /* FMDatabaseQueue.m */,
+				17B30DBF2BF3E2B70068B0A1 /* FMDB.h */,
+				17B30DBD2BF3E2B70068B0A1 /* FMResultSet.h */,
+				17B30DB62BF3E2B60068B0A1 /* FMResultSet.m */,
+				17B30DB22BF3E1AB0068B0A1 /* rehber.sqlite */,
+				17B30DB42BF3E2B60068B0A1 /* KisilerApp-Bridging-Header.h */,
 			);
 			path = KisilerApp;
+			sourceTree = "<group>";
+		};
+		1772B98D2BE7E89900B21C37 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				17B30D8B2BF3C6B40068B0A1 /* Viewmodel */,
+				1772B9BB2BEA8CA400B21C37 /* TableView */,
+				1772B9922BE7EA4A00B21C37 /* Views */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		1772B98E2BE7E8A300B21C37 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				17B30D882BF3C6710068B0A1 /* Repo */,
+				1772B98F2BE7E8E400B21C37 /* Entity */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1772B98F2BE7E8E400B21C37 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1772B9902BE7E93400B21C37 /* Kisiler.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		1772B9922BE7EA4A00B21C37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1772B97D2BE7E74800B21C37 /* Anasayfa.swift */,
+				1772B9932BE7EAE900B21C37 /* KisiKayit.swift */,
+				1772B9952BE7EAFB00B21C37 /* KisiDetay.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1772B9BB2BEA8CA400B21C37 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				1772B9BC2BEA8CD700B21C37 /* KisilerHucreTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		17B30D882BF3C6710068B0A1 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				17B30D892BF3C6810068B0A1 /* Repository.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		17B30D8B2BF3C6B40068B0A1 /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				17B30D8C2BF3C6D00068B0A1 /* AnasayfaViewModel.swift */,
+				17B30D8E2BF3C6DD0068B0A1 /* KisiKayıtViewModel.swift */,
+				17B30D902BF3C6E80068B0A1 /* KisiDetayViewModel.swift */,
+			);
+			path = Viewmodel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +197,9 @@
 			dependencies = (
 			);
 			name = KisilerApp;
+			packageProductDependencies = (
+				17B30D862BF3C51C0068B0A1 /* RxSwift */,
+			);
 			productName = KisilerApp;
 			productReference = 1772B9762BE7E74800B21C37 /* KisilerApp.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +216,7 @@
 				TargetAttributes = {
 					1772B9752BE7E74800B21C37 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 				};
 			};
@@ -111,6 +229,9 @@
 				Base,
 			);
 			mainGroup = 1772B96D2BE7E74800B21C37;
+			packageReferences = (
+				17B30D852BF3C51C0068B0A1 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 1772B9772BE7E74800B21C37 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1772B9832BE7E74900B21C37 /* Assets.xcassets in Resources */,
+				17B30DB32BF3E1AB0068B0A1 /* rehber.sqlite in Resources */,
 				1772B9862BE7E74900B21C37 /* Base in Resources */,
 				1772B9812BE7E74800B21C37 /* Base in Resources */,
 			);
@@ -138,9 +260,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1772B97E2BE7E74800B21C37 /* ViewController.swift in Sources */,
+				1772B97E2BE7E74800B21C37 /* Anasayfa.swift in Sources */,
+				1772B9962BE7EAFB00B21C37 /* KisiDetay.swift in Sources */,
+				17B30DC12BF3E2B70068B0A1 /* FMDatabasePool.m in Sources */,
+				1772B9942BE7EAE900B21C37 /* KisiKayit.swift in Sources */,
+				17B30D8A2BF3C6810068B0A1 /* Repository.swift in Sources */,
+				17B30DC32BF3E2B70068B0A1 /* FMDatabaseQueue.m in Sources */,
+				17B30DC22BF3E2B70068B0A1 /* FMDatabaseAdditions.m in Sources */,
 				1772B97A2BE7E74800B21C37 /* AppDelegate.swift in Sources */,
+				17B30D8F2BF3C6DD0068B0A1 /* KisiKayıtViewModel.swift in Sources */,
+				17B30DC02BF3E2B70068B0A1 /* FMResultSet.m in Sources */,
+				17B30D912BF3C6E80068B0A1 /* KisiDetayViewModel.swift in Sources */,
+				17B30D8D2BF3C6D00068B0A1 /* AnasayfaViewModel.swift in Sources */,
 				1772B97C2BE7E74800B21C37 /* SceneDelegate.swift in Sources */,
+				1772B9BD2BEA8CD700B21C37 /* KisilerHucreTableViewCell.swift in Sources */,
+				1772B9912BE7E93400B21C37 /* Kisiler.swift in Sources */,
+				17B30DC42BF3E2B70068B0A1 /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PDGSV55NXV;
@@ -308,6 +444,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.omerkeskin.KisilerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KisilerApp/KisilerApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PDGSV55NXV;
@@ -336,6 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.omerkeskin.KisilerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KisilerApp/KisilerApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +503,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		17B30D852BF3C51C0068B0A1 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		17B30D862BF3C51C0068B0A1 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17B30D852BF3C51C0068B0A1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1772B96E2BE7E74800B21C37 /* Project object */;
 }
